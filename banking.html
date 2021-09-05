@@ -20,43 +20,44 @@
                 <!-- total deposit section  -->
                 <div class="bg-green-400 rounded p-6 py-8 text-white">
                     <h3 class="text-2xl">Deposit</h3>
-                    <h2 class="text-3xl font-semibold">$00</h2>
+                    <h2 class="text-4xl font-semibold">$<span id="total-deposit">00</span></h2>
                 </div>
                 <!-- total withdraw section  -->
                 <div class="bg-blue-400 rounded p-6 text-white">
                     <h3 class="text-2xl">Withdraw</h3>
-                    <h2 class="text-3xl font-semibold">$00</h2>
+                    <h2 class="text-4xl font-semibold">$<span id="total-withdraw">00</span></h2>
                 </div>
                 <!-- total balance  -->
                 <div class="bg-yellow-400 rounded p-6 text-white">
                     <h3 class="text-2xl">Balance</h3>
-                    <h2 class="text-3xl font-semibold">$00</h2>
+                    <h2 class="text-4xl font-semibold">$<span id="total-balance">1500</span></h2>
                 </div>
             </div>
             <!-- user input section  -->
             <div class="grid grid-cols-2 gap-4 mx-auto w-3/4">
                 <!-- input deposit section  -->
-                <div class="bg-indigo-600 rounded p-6 text-white">
+                <div class="bg-indigo-600 rounded p-6 text-gray-400">
                     <h3 class="text-2xl">Please Deposit</h3>
-                    <input id="" class="px-2 py-1 rounded w-2/3 text-indigo-700 font-medium mt-3" type="text" name=""
+                    <input id="deposit-input" class="px-2 py-1 rounded w-2/3 text-indigo-700 font-medium mt-3" type="text" name=""
                         placeholder="Amount you want to deposit">
                     <button
-                        class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded px-3 text-white font-semibold py-1 block mt-3"
-                        type="submit">Deposit</button>
+                        class="bg-gradient-to-r from-purple-400 via-pink-600 to-red-700 rounded px-3 text-white font-semibold py-1 block mt-3"
+                        type="submit" id="deposit-button">Deposit</button>
                 </div>
                 <!-- input withdraw section  -->
-                <div class="bg-purple-600 rounded p-6 text-white">
+                <div class="bg-purple-600 rounded p-6 text-gray-400">
                     <h3 class="text-2xl">Please Withdraw</h3>
-                    <input id="" class="px-2 py-1 rounded w-2/3 text-indigo-700 font-medium mt-3" type="text" name=""
+                    <input id="withdraw-input" class="px-2 py-1 rounded w-2/3 text-indigo-700 font-medium mt-3" type="text" name=""
                         placeholder="Amount you want to withdraw">
                     <button
-                        class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded px-2 text-white font-semibold py-1 block mt-3"
-                        type="submit">Withdraw</button>
+                        class="bg-gradient-to-r from-purple-400 via-pink-600 to-red-700 rounded px-2 text-white font-semibold py-1 block mt-3"
+                        type="submit" id="withdraw-button">Withdraw</button>
                 </div>
 
             </div>
         </section>
     </main>
+    <script src="js/banking.js"></script>
 
 </body>
 
