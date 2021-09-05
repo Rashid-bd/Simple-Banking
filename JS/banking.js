@@ -20,8 +20,7 @@ document.getElementById('deposit-button').addEventListener('click', function () 
     const previousBalance = parseFloat(newBalance);
     if(userDepositInput > 0){
         totalBalance.innerText = previousBalance + userDepositInput;
-    };
-    
+    };    
 });
 
 // ********** Withdraw Button section **********
